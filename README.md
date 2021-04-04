@@ -51,3 +51,13 @@ server {
     }
 }
 ```
+
+#### Cloudflare
+##### Create Certificate 
+> SSL/TLS > Client Certificates > Create Certificate
+
+##### Create Sub Domain
+| Type      | Name           | IPv4 address | TTL  |
+| --------- | -------------- | ------------ | ---- |
+| **CNAME** | **sub.domain** | @            | Auto |
+
