@@ -37,8 +37,8 @@ services:
       - ./ssl/certificate.key:/etc/nginx/certs/certificate.key
 ```
 **Port**
-`80` for Hypertext Transfer Protocol (HTTP)
-`443` for (HTTP over an SSL/TLS) HTTPS
+- `80` for Hypertext Transfer Protocol (HTTP)
+- `443` for (HTTP over an SSL/TLS) HTTPS
 
 **SSL volumns certificate**
   - ./ssl/certificate.crt:/etc/nginx/certs/certificate.crt
@@ -86,8 +86,11 @@ XXXXXXXXXXXX
  <img src="https://www.cloudflare.com/img/logo-cloudflare-dark.svg" width="250" />
 
  </p>
+
 #### Cloudflare
+
 ##### Create Certificate 
+
  `SSL/TLS` > `Client Certificates` > `Create Certificate`
 
 Result file from nginx
